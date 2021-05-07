@@ -1,0 +1,168 @@
+.szovegtorzs2{
+    background-image: url('Hatterkep.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+}
+
+.szovegtorzs{
+    background-image: url('Hatterkep.jpg');
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: gray;
+    background-size: 100%;
+    height: 6.25rem;
+}
+
+header nav{
+    position: relative;
+    top: 1.875rem;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 3.125rem;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.szoveg{
+	width: 31.25rem;
+	height: auto;
+	padding: 1.25rem;
+	font-size: 1.25rem;
+	text-align: justify;
+	color:white;
+    float: left;
+}
+
+.rolam{
+    color:white;
+    text-align: center;
+    float: left;
+}
+
+.rolam h2{
+    font-size: 3rem;
+}
+
+.szoveg2{
+    color:white;
+    text-align: center;
+    float: left;
+    font-size: 2.1rem;
+    margin-top: 12.5rem;
+    margin-left: 6.25rem;
+}
+
+.kepek{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 9.375rem;
+    left: 4.6rem;
+}
+
+.kepek.elso{
+    display: flex;
+    flex-direction: row;
+}
+
+.kepek.masodik{
+    display: flex;
+    flex-direction: row;
+}
+
+.kepek img{
+    width: 28.125rem;
+    height: 18.75rem;
+}
+
+.terv img{
+    width: 49%;
+    height: 49%;
+}
+
+@media screen and (max-width:800px){
+    .szoveg{
+        font-size: 20px;
+    }
+    .szoveg2 {
+        font-size:1.5rem;
+    }
+}
+
+@media screen and (max-width:629px){
+    .szoveg{
+        font-size: 15px;
+        width:20rem;
+        float:none;
+    }
+    .doc{
+        float: none;
+    }
+}
+
+@media screen and (max-width:530px){
+    .szoveg{
+        width:15rem;
+        font-size:15px;
+        float:none;
+    }}
+    @media screen and (max-width:530px){
+        .szoveg{
+            width:12rem;
+            font-size:15px;
+            float:none;
+        }
+        .kepek img{
+            height: 15rem;
+            width: 18rem;
+        }
+        .szoveg2 {
+            font-size:1rem;
+        }}
+        @media screen and (max-width:530px){
+            .szoveg{
+                width:12rem;
+                font-size:15px;
+                float:none;
+            }
+}
+
+@media screen and (max-width:396px){
+    header{
+        height:7rem;
+    }
+    .szoveg2 {
+        font-size:0.8rem;
+    }
+}
+
+@media screen and (max-width:270px){
+    header{
+        height:10rem;
+    }
+    .szoveg2 {
+        float:none;
+        margin-left:auto;
+    }
+}
+
+.vege{
+    text-align: justify;
+    font-size: 1.4rem;
+    color:black;
+}
